@@ -1,0 +1,48 @@
+---
+title: "Project Overview: Goals, Structure, and Philosophy"
+sidebarTitle: "Overview"
+description: "A deep dive into 9social-user-leo's deliberately minimal structure, core goals, and the philosophy behind shipping a single-file artifact."
+---
+
+9social-user-leo — *the lion that squeaked* — is a deliberately minimal repository. Rather than sprawling across dozens of files and dependencies, it distills an entire project down to its barest essentials: a readme and a single artifact. This page walks through what the project contains, why it is built this way, and what it is trying to achieve.
+
+## Repository Structure
+
+The full contents of the repository can be represented in a single directory tree:
+
+```
+9social-user-leo/
+├── README.md   # Project readme (currently minimal)
+└── Whoa        # The project's primary artifact
+```
+
+There are no subdirectories, no configuration files, and no package manifests. Every file that exists is intentional.
+
+## Project Goals
+
+The project is guided by three clear goals:
+
+1. **Keep it minimal.** Every addition to the repository should earn its place. If a file, dependency, or line of text does not serve a clear purpose, it does not belong here. Minimalism is not a limitation — it is the point.
+
+2. **Ship a working artifact.** The `Whoa` file is the project's output. It exists, it has content, and it does exactly what it sets out to do. Shipping something real — however small — is more valuable than planning something large that never arrives.
+
+3. **Stay open for contribution.** Being minimal does not mean being closed. The project welcomes ideas, improvements, and conversation from contributors at every level of experience. The simplicity of the codebase makes it easy for anyone to get involved.
+
+## Design Decisions
+
+**No dependencies.** Adding a dependency means adding complexity, maintenance burden, and external risk. Because the project's purpose is inherently simple, there is no scenario in which a dependency is warranted. Everything the project needs, it already has.
+
+**A single-file artifact.** The `Whoa` file was chosen as the project's primary output because it makes the project's intent concrete and tangible. Rather than a theoretical goal or an abstract idea, there is a real file with real content that anyone can read, modify, and reason about.
+
+**The name and tagline.** The repository is called `9social-user-leo` and carries the tagline *the lion that squeaked*. The name grounds the project in a specific identity, while the tagline captures the spirit of the artifact: a lion is expected to roar, but this one squeaks — and that unexpected gentleness is exactly the point. The `Whoa` file, with its single word `wow`, is that squeak.
+
+---
+
+<CardGroup cols={2}>
+  <Card title="The Whoa File" icon="file" href="/project/whoa">
+    Explore the project's core artifact — what it contains, why it exists, and how to work with it.
+  </Card>
+  <Card title="Contributing" icon="code-pull-request" href="/project/contributing">
+    Learn how to contribute to 9social-user-leo, from opening issues to submitting pull requests.
+  </Card>
+</CardGroup>

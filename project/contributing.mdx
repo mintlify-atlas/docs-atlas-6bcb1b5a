@@ -1,0 +1,80 @@
+---
+title: "Contributing to 9social-user-leo"
+sidebarTitle: "Contributing"
+description: "Everyone is welcome to contribute to 9social-user-leo — whether you're reporting bugs, suggesting ideas, improving docs, or opening your first pull request."
+---
+
+9social-user-leo is an open project, and contributions of every kind are genuinely welcome. Whether you have spotted something to improve, have an idea that fits the project's spirit, or simply want to get involved for the first time — there is a place for you here. No contribution is too small, and no question is too basic.
+
+## Ways to Contribute
+
+<CardGroup cols={2}>
+  <Card title="Report a Bug" icon="bug">
+    Found something that does not look right? Open an issue on GitHub and describe what you expected versus what you observed. Clear bug reports are enormously helpful.
+  </Card>
+  <Card title="Suggest a Feature" icon="lightbulb">
+    Have an idea that fits the minimal spirit of the project? Open an issue to propose it. A brief description of the idea and the problem it solves is a great place to start.
+  </Card>
+  <Card title="Improve Documentation" icon="pen-to-square">
+    Documentation improvements are always welcome — from fixing a typo to adding a new page. Good docs make the project accessible to everyone.
+  </Card>
+  <Card title="Submit a Pull Request" icon="code-pull-request">
+    Ready to contribute code or content directly? Fork the repository, make your changes on a feature branch, and open a pull request. The sections below walk you through the process.
+  </Card>
+</CardGroup>
+
+## Getting Set Up
+
+<Steps>
+  <Step title="Fork the repository">
+    Visit the [9social-user-leo repository on GitHub](https://github.com/Sn00per625/9social-user-leo) and click **Fork** to create your own copy under your GitHub account.
+  </Step>
+  <Step title="Clone your fork">
+    Clone your forked repository to your local machine:
+
+    ```bash
+    git clone https://github.com/<your-username>/9social-user-leo.git
+    ```
+
+    Replace `<your-username>` with your GitHub username.
+  </Step>
+  <Step title="Create a feature branch">
+    Always work on a dedicated branch rather than directly on `main`:
+
+    ```bash
+    git checkout -b feature/my-change
+    ```
+
+    Choose a branch name that briefly describes the change you are making.
+  </Step>
+  <Step title="Make your changes and commit">
+    Make your changes, then stage and commit them with a clear message:
+
+    ```bash
+    git commit -m 'feat: describe your change'
+    ```
+
+    Keep commits focused and the message descriptive. Following the `type: description` convention (e.g. `fix:`, `docs:`, `feat:`) is appreciated but not required.
+  </Step>
+  <Step title="Push and open a pull request">
+    Push your branch to your fork on GitHub:
+
+    ```bash
+    git push origin feature/my-change
+    ```
+
+    Then navigate to the original repository and click **New pull request**. Select your branch, write a brief description of what you changed and why, and submit. A maintainer will review and respond.
+  </Step>
+</Steps>
+
+## Code Style
+
+9social-user-leo values simplicity above all else. When contributing, please keep the following principles in mind:
+
+- **Keep changes minimal.** Prefer small, focused changes over large refactors. A pull request that does one thing well is easier to review and more likely to be merged.
+- **Avoid adding dependencies.** The project is dependency-free by design. Unless there is a compelling and clearly articulated reason, new dependencies will not be accepted.
+- **Honour the spirit of the project.** The project is called *the lion that squeaked* for a reason. Changes that align with that spirit of quiet, deliberate minimalism are the most welcome.
+
+<Tip>
+  Not sure where to start? Open an issue and introduce yourself — all contributions begin with a conversation.
+</Tip>

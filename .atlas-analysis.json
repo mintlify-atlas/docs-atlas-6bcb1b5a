@@ -1,0 +1,34 @@
+{
+  "projectType": "general",
+  "projectName": "9social-user-leo",
+  "projectDescription": "A minimal, early-stage project described as 'The lion that squeaked' — a lightweight starting point under active development.",
+  "theme": "willow",
+  "primaryColor": "#E8854A",
+  "lightColor": "#F5C6A0",
+  "darkColor": "#B85A1F",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "group": "Project",
+        "pages": ["project/overview", "project/whoa", "project/contributing"]
+      },
+      {
+        "group": "Reference",
+        "pages": ["reference/faq", "reference/changelog"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Minimal footprint with no external dependencies",
+    "Single-file artifact output (Whoa)",
+    "Open for community contribution",
+    "Clean, unopinionated project structure"
+  ],
+  "publicApiSurface": [
+    "Whoa file — contains project output string 'wow'"
+  ]
+}
